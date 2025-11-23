@@ -255,7 +255,7 @@ h1{
 }
 
 
-/* === Responsive Design Styles === */
+
 
 
 
@@ -263,40 +263,40 @@ h1{
 
 @media screen and (max-width: 768px) {
     .parameters-container {
-        /* Stack the parameter cards vertically instead of side-by-side */
+        
         flex-direction: column;
-        gap: 15px; /* Adjust the gap for vertical stacking */
+        gap: 15px; 
     }
 
     .parameter {
-        /* Allow the cards to take up more width when stacked */
+       
         width: 80%;
         max-width: 350px;
     }
 }
 
 
-/* For mobile phones (550px and below) */
+
 @media screen and (max-width: 550px) {
     h1 {
-        font-size: 1.8rem; /* Reduce heading size */
+        font-size: 1.8rem; 
         padding-top: 15px;
     }
 
     .tab-container {
-        margin-top: 2rem; /* Reduce top margin */
+        margin-top: 2rem; 
     }
 
     .weather-container {
-        margin-block: 2rem; /* Reduce vertical margin */
+        margin-block: 2rem; 
     }
     
     .name p {
-        font-size: 1.5rem; /* Reduce city name font size */
+        font-size: 1.5rem; 
     }
 
     .data-weather-temp {
-        font-size: 2.5rem; /* Reduce temperature font size */
+        font-size: 2.5rem; 
     }
 
     .data-weather-description {
@@ -308,7 +308,7 @@ h1{
     }
 
     .parameter {
-        width: 90%; /* Take up nearly full width on very small screens */
+        width: 90%; 
         padding: 0.8rem;
     }
 
@@ -321,7 +321,7 @@ h1{
     }
 
     .form-container {
-        gap: 0 8px; /* Reduce gap between input and button */
+        gap: 0 8px;
     }
 
     .form-container input {
@@ -330,3 +330,4 @@ h1{
     }
 
 }
+
