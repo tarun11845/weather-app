@@ -1,5 +1,5 @@
 
-const API_KEY="66dc052d0c2ac323ee3237d0c9afaa11"
+const API_KEY="ec3174222f4fa02700d0bde34ae60655"
 const userTab=document.querySelector(".userWeather")
 const searchTab=document.querySelector(".searchWeather")
 const UserContainer=document.querySelector(".weather-container")
@@ -199,3 +199,4 @@ async function fetchWeatherDetailByCity(city) {
     }
 
 }
+
